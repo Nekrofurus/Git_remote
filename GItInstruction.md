@@ -129,11 +129,11 @@ git remote add origin https://github.com/<ссылка.git>
 ```
 git remote -v
 ```
-Удаление привязки осуществляется через команду:
-```
-git remote -rm <name>
-```
 Переименовать удаленной подключение:
 ```
 git remote rename <old-name> <new-name>
+```
+Удаление привязки осуществляется через команду:
+```
+git remote -rm <name>
 ```
