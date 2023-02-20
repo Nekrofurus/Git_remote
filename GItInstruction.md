@@ -137,6 +137,8 @@ git remote rename <old-name> <new-name>
 ```
 git remote -rm <name>
 ```
+### 13.3 Перемещение информации между удаленным и локальным  репозиториями
+
 - Переименовываем основную ветку в **main**
 ```
 git branch -M main
@@ -145,3 +147,6 @@ git branch -M main
 ```
 git push -u origin main
 ```
+- Перемещение информации с удаленного репозитория на локальный:
+```
+git pull
