@@ -111,7 +111,7 @@ error: Entry '<fileName>' not uptodate. Cannot merge. (Changes in working direct
 error: Entry '<fileName>' would be overwritten by merge. Cannot merge. (Changes in staging area)
 ```
 Самый простой способ разрешить конфликт - оредактировать вручную конфликтующий файл и после этого выполнить команду ``git commit -m``
-
+***
 ## 13 Работа с удаленными репозиториями
 ### 13.1 Регистрация на Github
 <img src="github.webp" alt="drawing" width="300"/>
@@ -136,4 +136,12 @@ git remote rename <old-name> <new-name>
 Удаление привязки осуществляется через команду:
 ```
 git remote -rm <name>
+```
+- Переименовываем основную ветку в **main**
+```
+git branch -M main
+```
+- Отправить изменения из локального репозитория в удаленный
+```
+git push -u origin main
 ```
